@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Climate Data Viewer</title>
+  <link rel="stylesheet" href="page2B.css" />
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo" style="height:40px;">
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Our Mission</a>
+      <a href="#">Contact Us</a>
+    </nav>
+    <div class="search-login">
+      <input type="text" placeholder="SEARCH">
+      <button>SIGN IN</button>
+    </div>
+  </header>
+
+  <div class="container">
+    <h1>Climate Data</h1>
+    <h2>View Data:</h2>
+
+    <div class="filter-section">
+      <label for="region">Filter ⏷</label>
+      <select id="region">
+        <option>Region</option>
+      </select>
+
+      <label for="fromStation">From:</label>
+      <input type="text" id="fromStation" placeholder="Station id">
+
+      <label for="toStation">To:</label>
+      <input type="text" id="toStation" placeholder="Station id">
+
+      <label for="startDate">Start From:</label>
+      <input type="date" id="startDate">
+
+      <label for="endDate">Until:</label>
+      <input type="date" id="endDate">
+    </div>
+
+    <div class="data-box">
+      Data
+    </div>
+  </div>
+
+  <footer>
+    <a href="#">Home</a> |
+    <a href="#">Our Mission</a> |
+    <a href="#">Contact Us</a>
+  </footer>
+</body>
+</html>

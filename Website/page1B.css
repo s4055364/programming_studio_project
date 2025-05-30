@@ -1,0 +1,95 @@
+/* General Layout */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eaece7;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background-color: #c7dbf4;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.search-login {
+  display: flex;
+  gap: 10px;
+}
+
+.search-login input,
+.search-login button {
+  padding: 5px 10px;
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Mission Section */
+.mission-box, .how-to-box {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #aaa;
+  margin-bottom: 20px;
+}
+
+/* How to Use Section */
+ol {
+  padding-left: 20px;
+}
+
+/* Call to Action */
+.find-out-box {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  background-color: #eaeaea;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* Personas and Team */
+.user-personas, .team-members {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.persona-box, .team-box {
+  background-color: white;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  border: 1px solid #aaa;
+}
+
+/* Footer */
+footer {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 40px;
+}
